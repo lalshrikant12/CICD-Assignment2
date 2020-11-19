@@ -3,9 +3,16 @@
   <groupId>Assignment2</groupId>
   <artifactId>Assignment2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <server>
+  
+   <properties>
+  <maven.compiler.source>1.6</maven.compiler.source>
+  <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
+<distributionManagement>
+  <snapshotRepository>
     <id>Assignment2</id>
-    <username>admin</username>
-    <password>admin@123</password>
-  </server>
+    <name>Assignment2</name>
+    <url>http://localhost:8081/repository/Assignment2/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
