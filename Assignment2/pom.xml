@@ -3,4 +3,9 @@
   <groupId>Assignment2</groupId>
   <artifactId>Assignment2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <server>
+    <id>Assignment2</id>
+    <username>admin</username>
+    <password>admin@123</password>
+  </server>
 </project>
